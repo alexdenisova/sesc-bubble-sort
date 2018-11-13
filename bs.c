@@ -69,8 +69,7 @@ void bubblesort(struct node** head, int len) {
 
 int main(void) {
 	struct node* head = NULL;
-	int N, len;
-	char str[1000];
+	int N;
 	int num[1000];
 	scanf("%d", &N);
 	for(int i=0; i<N; i++){
